@@ -1,0 +1,17 @@
+(footprint "TP_SQ" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0.01 -1.14 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    (tstamp fafaab2a-516a-4065-9890-c425dd64c796)
+  )
+  (fp_text value "TP_SQ" (at 0 -0.27 unlocked) (layer "F.Fab")
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    (tstamp cfca39e7-b73b-4da5-b782-8b307c0f373b)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0.3 unlocked) (layer "F.Fab") hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    (tstamp c5072441-e543-4fca-85c7-09184fe4e320)
+  )
+  (pad "1" thru_hole rect (at 0 0) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 3830f2fd-b0f4-43ab-b5b2-efa4dcd11a9f))
+)
